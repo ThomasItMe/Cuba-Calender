@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+
+    <view entity="callender_Session" name="session-view" extends="_local">
+        <property name="speaker" view="_minimal"/>
+    </view>
+    <view entity="callender_Speaker" name="speaker-view" extends="_local"/>
+</views>
